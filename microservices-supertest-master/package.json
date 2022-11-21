@@ -1,0 +1,20 @@
+{
+  "name": "ms-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "cucumber-js Featurefiles/**/*.feature  -f json:Report/microservices.json",
+    "report": "node reportgenerator.js"
+  },
+  "author": "Vinay Redkar, Ajay Thakur", 
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^6.12.2",
+    "chai": "4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "supertest": "^4.0.2",
+    "supertest-with-proxy": "5.0.2"
+  }
+}

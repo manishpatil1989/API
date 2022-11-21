@@ -1,0 +1,53 @@
+{
+    "successschema": {
+	    "type": "object",
+        "properties": {
+            "code": {"type": "integer"},
+            "message": {"type": "string"},
+            "userdetails": {"type": "object",
+                "properties": {
+                    "userid": {"type": "integer"},
+                    "username": {"type": "string"},
+                    "title": {"type": "string"},
+                    "salary": {"type": "integer"},
+                    "firstname": {"type": "string"},
+                    "lastname": {"type": "string"}
+                }
+            }
+    
+        }
+    },
+        "failschema": {
+	
+        "type": "object",
+        "properties": {
+            "code": {"type": "integer"},
+            "message": {"type": "string"}
+           
+            }
+    
+        },
+    
+    "endpoint": "/v1/89379286-667a-49b0-a1f4-b9ec5f14ef9b",
+    "input":{},
+    "header": {},
+    "responseToSave": [],
+    "headerToSave": [],
+    "cookieToSave": [],
+    "setRequestCookies": false,
+    "saveResponseCookies": false
+}
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
